@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const dbUrl = process.env.DB_URL || 'mongodb+srv://deepanshiy68_db_user:KrpYRPsX73JJvnjh@car-rentals.nte3hfc.mongodb.net/car-rentals';
+    const dbUrl = process.env.MONGO_URI || 'mongodb://localhost:27017/car-rental';
     await mongoose.connect(dbUrl);
-    console.log('MongoDB Connected to car-rentals');
+    console.log('MongoDB Connected to car-rental');
   } catch (err) {
     console.error(err.message);
     process.exit(1);

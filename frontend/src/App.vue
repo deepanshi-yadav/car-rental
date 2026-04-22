@@ -1,0 +1,16 @@
+<template>
+  <div id="app" class="min-h-screen bg-gray-50">
+    <Navbar />
+    <router-view />
+
+    <footer class="bg-gray-900 text-white py-8 mt-20">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2024 CarRentals. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</template>
+
+<script setup>
+import Navbar from './components/Navbar.vue'
+</script>
