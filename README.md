@@ -16,23 +16,23 @@ RentifyCar is a full-stack car rental web application built to provide a simple 
 
 #**Tech Stack**
 
- **Frontend**
+# **Frontend**
 - Vue.js
 - JavaScript
 - HTML
 - CSS
 
- **Backend**
+ ## **Backend**
 - Node.js
 - Express.js
 - JWT Authentication
 - bcryptjs
 
-**Database**
+## **Database**
 - MongoDB
 - MongoDB Atlas
 
-**Tools**
+##**Tools**
 - Git & GitHub
 - Postman
 
