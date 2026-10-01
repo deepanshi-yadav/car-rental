@@ -16,30 +16,31 @@ RentifyCar is a full-stack car rental web application built to provide a simple 
 
 #**Tech Stack**
 
- 1.**Frontend**
+ **Frontend**
 - Vue.js
 - JavaScript
 - HTML
 - CSS
 
- 2.**Backend**
+ **Backend**
 - Node.js
 - Express.js
 - JWT Authentication
 - bcryptjs
 
-3. **Database**
+**Database**
 - MongoDB
 - MongoDB Atlas
 
-4. **Tools**
+**Tools**
 - Git & GitHub
 - Postman
 
-  5.**Payment**
+**Payment**
 - Razorpay
 
  #**Project Structure**
+
 car-rental
 ├── frontend
 │   ├── src
@@ -57,19 +58,20 @@ car-rental
 ├── .gitignore
 └── README.md
 
- #**How to Run**
- 1.**Setup Backend**
+#**How to Run**
+
+**Setup Backend**
 cd backend
 npm install
 npm start
 
-2.**Setup Frontend**
+**Setup Frontend**
 Open a new terminal:
 cd frontend
 npm install
 npm run dev
 
- #**Project Highlights**
+#**Project Highlights**
 - Full-stack web application
 - Separate frontend and backend architecture
 - REST API-based backend
@@ -81,6 +83,7 @@ npm run dev
 - API testing with Postman
 
 #**Author**
+
 **Deepanshi**
 
 GitHub: https://github.com/deepanshi-yadav
