@@ -41,22 +41,23 @@ RentifyCar is a full-stack car rental web application built to provide a simple 
 
  #**Project Structure**
 
-car-rental
-├── frontend
-│   ├── src
-│   └── package.json
-│
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── middleware
-│   ├── config
-│   ├── server.js
-│   └── package.json
-│
-├── .gitignore
-└── README.md
+**car-rental**
+**frontend**
+src
+package.json
+
+**Backend**
+
+controllers
+models
+routes
+middleware
+config
+server.js
+package.json
+
+**.gitignore**
+**README.md**
 
 #**How to Run**
 
